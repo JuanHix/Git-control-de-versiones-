@@ -15,6 +15,8 @@ cargamos los archivos y dejamos un comentario con su respectiva descripcion.
 Podemos ver el historico de modificacion de nuestros commit realizados  
 **git log --oneline:**  
 visualizamos nuestros commit por linea.  
+**git log --graph:**  
+observamos los commit con grafica   
 **git log -p:**  
 visualizamos la modificaciones que se realizan en cada commit.     
 **git config --local user.name "nombre":**  
@@ -36,6 +38,22 @@ clonamos repositorio con la ubicacion local, al final podemos agregar el nuevo n
 enviamos los archivos ya cargador en nuestra rama a el repositorio.  
 **git remote rename origin servidorlocal:**  
 realizamos el cambio de nobre de nuestro servidor local de origin a servidorlocal  
+**git branch:**  
+listamos las ramas que tenemos sobre nuestro repositorio.  
+**git branch titulo:**  
+Creamos una nueva rama en nuestro repositorio  
+**git checkout titulo:**  
+cambiamos de rama en nuestro repositorio  
+**git checkout -b titulo:**  
+crea la rama y se pasa a esa misma rama de trabajo.  
+**git merge rama:**  
+integra los cambios de la rama en la rama actual a la que apunta HEAD.  
+**git rebase rama:**  
+Fusiona los commit en la ramma principal antes del ultimo commit.  
+  
+
+
+
 
 
 
