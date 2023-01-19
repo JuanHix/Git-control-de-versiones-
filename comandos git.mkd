@@ -1,0 +1,50 @@
+# Curso Git (Control de versiones)
+
+## Comandos:
+**git init:**  
+Inicializamos repositorio en carpeta seleccionada.  
+**git add (nombre de archivo):**  
+Hacemos seguimiento a el archivos que especificamos.   
+**git add . :**    
+hacemos seguimiento a todos los archivos que tenemos en ese carpeta.  
+**git status:**  
+validamos que archivos estamos trabajando donde inicializamos el repositorio. color rojo aun no estan siendo seguidos, color verde ya tenemos nuestros archivos en seguimiento.  
+**git commit -m:**  
+cargamos los archivos y dejamos un comentario con su respectiva descripcion.  
+**git log:**  
+Podemos ver el historico de modificacion de nuestros commit realizados  
+**git log --oneline:**  
+visualizamos nuestros commit por linea.  
+**git log -p:**  
+visualizamos la modificaciones que se realizan en cada commit.     
+**git config --local user.name "nombre":**  
+**git config --local user.email "nombre":**  
+realizamos el cambio de nuestro nombre de usuario o email. (local o global)  
+**.ignore:**  
+se crea archivo para ignorar los archivos que no queremos que suban a nuestro repositorio.  
+**git init --bare:**    
+creacion de repositorio puro solo contiene las modificaciones de los archivos  
+**git remote:**  
+Listamos todos nuestros servidores remotos    
+**git remote add nombre 'ubicacion':**  
+listamos los archivos en nuestro servidor remoto a servidor local.  
+**git remote:-v**  
+Muestra en que direccion esta apuntando el servidor.  
+**git clone '/e/Programacion/Programacion ONE/servidor/' proyecto:**   
+clonamos repositorio con la ubicacion local, al final podemos agregar el nuevo nobre de la carpeta.  
+**git push (ubicacion y rama):**  
+enviamos los archivos ya cargador en nuestra rama a el repositorio.  
+**git remote rename origin servidorlocal:**  
+realizamos el cambio de nobre de nuestro servidor local de origin a servidorlocal  
+
+
+
+
+
+
+
+
+
+
+
+
