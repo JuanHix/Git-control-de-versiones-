@@ -50,7 +50,34 @@ crea la rama y se pasa a esa misma rama de trabajo.
 integra los cambios de la rama en la rama actual a la que apunta HEAD.  
 **git rebase rama:**  
 Fusiona los commit en la ramma principal antes del ultimo commit.  
-  
+**git restore archivo**    
+git restore deshacemos una modificación que aún no fue agregada al index o stage, o sea, antes de hacer git add   
+**git restore --staged archivo:**  
+restaura cambios realizados en un commit. retira el add de ese commit.  
+**git revert #hash:**  
+crea un nuevo commit deshaciendo el commit anterior.  
+**git stash:**  
+guarda modificaciones temporalmente.  
+**git stash list:**  
+trae una lista con los commit temporales creados  
+**git stash apply #:**  
+aplica los cambios del guardado temmporal.  
+**git stash pop:**  
+aplica los cambios del guardado temporal y elimana ese commit temporal creado.  
+**git checkout 4c8f512:**  
+podemos viajar sobre commits que tengamos en nuestro repositorio es necesario crear otra rama si queremos guardar los cambios de ese commit.  
+**git diff 4c8f512..cd84e88:**
+Podemos ver la mosdificaciones que se realizaron entre un commit y otro, solo se especifica el commint a comprar.  
+**git tag -a v0.1.0:**  
+Definimos el versionamiento de una aplicacion, un punto unico que damos como version beta de nuetra app en trabajo.
+**git push origin v0.1.0:**  
+se envia verion beta (tag) a repositorio github.
+
+
+
+
+
+
 
 
 
